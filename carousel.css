@@ -104,9 +104,16 @@ body {
     margin-top: 7rem;
   }
 }
-
+/*
 @media only screen and (max-width:479px){
    .unity-logo > img {
       width:100%;
       height:auto;
     }
+*/
+@media(max-width:480px){
+  .unity-logo > img{
+     max-width: 100%;
+     height: auto;
+    }
+}
