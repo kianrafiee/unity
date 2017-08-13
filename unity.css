@@ -12,14 +12,3 @@
 html, body {
   min-height: 150px;
 }
-
-.parent{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-content: center;
-}
-@media(max-width:480px){
- max-width: 100%;
- height: auto;
-}
