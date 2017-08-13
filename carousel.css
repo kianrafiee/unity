@@ -41,8 +41,8 @@ body {
 }
 .unity-logo > img {
   width: auto;
-  height: 296px;
-  max-height: 296px;
+  height: 130%;
+  max-height: 130%;
   margin: 0 auto; 
 }
 .carousel-inner > .item > img {
