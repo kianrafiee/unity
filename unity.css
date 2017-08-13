@@ -1,0 +1,14 @@
+.middle {
+    line-height: 35px; /** or same as ul height */
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100%; /* 230px */
+  /* background-color: #f5f5f5; */
+}
+html, body {
+  min-height: 150px;
+}
