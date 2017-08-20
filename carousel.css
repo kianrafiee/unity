@@ -26,7 +26,24 @@ body {
   height: 26rem; /* original is 32rem */
   background-color: #fff;
 }
+.carousel2-item {
+  height: 26rem; /* original is 32rem */
+  background-color: #fff;
+}
 .carousel-item > img {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  /* min-width: 100%; */
+  /* height: 32rem; */
+  /* margin:auto; */
+  max-width: 100000px;
+  display: block; /*for many reasons - but mainly to get rid of the little margin-bottom that happens by default */
+  width: 100%;
+  height: auto;
+  /* margin:auto; */
+}
+.carousel2-item > img {
   /* position: absolute; */
   top: 0;
   left: 0;
