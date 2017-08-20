@@ -15,12 +15,18 @@ body {
 .carousel {
   margin-bottom: 0rem;
 }
+.carousel2 {
+  margin-bottom: 0rem;
+}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
   bottom: 3rem;
 }
-
+.carousel2-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 26rem; /* original is 32rem */
@@ -66,7 +72,9 @@ body {
     margin: 0 auto;
 }
 
-
+.carousel2-inner > .item > img {
+    margin: 0 auto;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
