@@ -9,6 +9,10 @@
   height: 100%; /* 230px */
   /* background-color: #f5f5f5; */
 }
+.middleize {
+
+	vertical-align: middle;
+}
 html, body {
   min-height: 150px;
 }
