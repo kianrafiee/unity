@@ -26,7 +26,7 @@ body {
   background-color: #fff;
 }
 #myCarousel2 .item {
-  height: 6rem; /* original is 32rem */
+  height: 12rem; /* original is 32rem */
   background-color: #fff;
 }
 .carousel-item > img {
@@ -53,7 +53,7 @@ body {
   max-width: 100000px;
   display: block; /*for many reasons - but mainly to get rid of the little margin-bottom that happens by default */
   width: 100%;
-  height: auto;
+  /* height: auto;
   /* margin:auto; */
 }
 .unity-logo > img {
