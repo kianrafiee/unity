@@ -15,15 +15,8 @@ body {
 .carousel {
   margin-bottom: 0rem;
 }
-.carousel2 {
-  margin-bottom: 0rem;
-}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  z-index: 10;
-  bottom: 3rem;
-}
-.carousel2-caption {
   z-index: 10;
   bottom: 3rem;
 }
@@ -32,7 +25,7 @@ body {
   height: 26rem; /* original is 32rem */
   background-color: #fff;
 }
-.carousel2-item {
+#myCarousel2 .item {
   height: 26rem; /* original is 32rem */
   background-color: #fff;
 }
@@ -49,7 +42,8 @@ body {
   height: auto;
   /* margin:auto; */
 }
-.carousel2-item > img {
+
+#myCarousel2 .item > img {
   /* position: absolute; */
   top: 0;
   left: 0;
@@ -69,10 +63,6 @@ body {
   margin: 0 auto; 
 }
 .carousel-inner > .item > img {
-    margin: 0 auto;
-}
-
-.carousel2-inner > .item > img {
     margin: 0 auto;
 }
 
