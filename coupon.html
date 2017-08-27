@@ -126,17 +126,12 @@
 
 <div class="container">
 
-<span id="coupon">Share To Reveal Coupon Code</span>
+<span id="coupon">Share On Facebook To Reveal 10% Coupon Code</span>
+<span id="printcoupon"></span>
 <input type="text" id="coupon-code" value="">
 
 <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
 
-<script type="text/javascript">
-    addthis.addEventListener('addthis.menu.share', function(evt) {
-        // Show coupon code
-        document.getElementById('coupon-code').value = "UNITY81754874";
-    });
-</script>
 </div>
 
 
@@ -166,7 +161,9 @@
 <script type="text/javascript">
     addthis.addEventListener('addthis.menu.share', function(evt) {
         // Show coupon code
-        document.getElementById('coupon-code').value = "UNITY81754874";
+        document.getElementById('coupon').textContent = "Your Coupon Code Is: UNITY81754874";
+
+        document.getElementById('printcoupon').textContent = "Please print this page and bring it in to Unity Martial Arts Academy for your 10% discount.";
     });
 </script>
 </body>
