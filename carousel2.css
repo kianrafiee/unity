@@ -14,9 +14,9 @@ body {
 /* Carousel base class */
 .carousel {
 
-  margin-top: 0px;
+  margin-top: 56px;
   margin-bottom: 0rem;
-  padding-top: 56px
+  padding-top: 0px
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -76,9 +76,6 @@ body {
   display: block;
 }
 
-.navbar-toggler-right {
-  position:relative;
-}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
