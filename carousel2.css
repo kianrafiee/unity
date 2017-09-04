@@ -16,6 +16,7 @@ body {
 
   margin-top: 0px;
   margin-bottom: 0rem;
+  padding-top: 56px
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -75,9 +76,6 @@ body {
   display: block;
 }
 
-.navbar {
-  padding-bottom: 56px;
-}
 
 
 /* MARKETING CONTENT
