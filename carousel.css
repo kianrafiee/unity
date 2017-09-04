@@ -131,12 +131,7 @@ body {
   .unity-logo > img{
      max-width: 100%;
      height: auto;
+     margin: 0 auto; 
     }
 }
 
-@media(max-width:480px){
-  .scaleforphones > img{
-     max-width: 100%;
-     height: auto;
-    }
-}
