@@ -129,7 +129,7 @@ body {
 */
 @media(max-width:480px){
   .unity-logo > img{
-     max-width: 100%;
+     max-width: 90%;
      height: auto;
      margin: 0 auto; 
     }
