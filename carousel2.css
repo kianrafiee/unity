@@ -14,7 +14,7 @@ body {
 /* Carousel base class */
 .carousel {
 
-  margin-top: 56px;
+  margin-top: 0px;
   margin-bottom: 0rem;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -74,6 +74,12 @@ body {
 .carousel-item-prev {
   display: block;
 }
+
+.navbar-toggler {
+  margin-bottom:56px;
+}
+
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -134,10 +140,10 @@ body {
      max-width: 100%;
      height: auto;
      margin: 0 auto; 
-    }
+    } /*
   .navbar-toggler {
     margin-top:-56px;
-  }
+  } */
   
 }
 
