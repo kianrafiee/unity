@@ -126,7 +126,7 @@ body {
   }
 }
 
-/* 480px 
+/* 480px  */
 @media(max-width:736px) {
   .unity-logo > img{
      max-width: 100%;
@@ -134,4 +134,4 @@ body {
      margin: 0 auto; 
     }
 }
-*/
+
