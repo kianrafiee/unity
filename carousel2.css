@@ -76,7 +76,9 @@ body {
   display: block;
 }
 
-
+.navbar-toggler-right {
+  position:fixed;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
