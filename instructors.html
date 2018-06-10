@@ -5,15 +5,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <!-- Bootstrap core CSS -->
-    <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
     
     
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="https://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template 
     <link href="navbar-top.css" rel="stylesheet">
+    -->
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-top-fixed.css" rel="stylesheet">
     
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -25,14 +29,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="https://getbootstrap.com/assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://getbootstrap.com/assets/js/vendor/popper.min.js"></script>
-    <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="https://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
     
     <link href="carousel.css" rel="stylesheet">
     <link href="unity.css" rel="stylesheet">
+
     <style>
  @media (max-width: 550px) {
      .big-container {
@@ -69,16 +74,18 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<!-- <nav style="background-color: #7091C1;" class="navbar navbar-toggleable navbar-expand-md navbar-light fixed-top"> -->
 
+<nav style="background-color: #e3f2fd;" class="navbar navbar-toggleable navbar-expand-md navbar-light fixed-top">
 
+  <a class="navbar-brand d-none d-md-block" href="#">Unity Martial Arts Academy</a>
+  <a class="navbar-brand d-md-none" href="#">Unity Martial Arts</a>
 
-<nav class="navbar navbar-expand-md navbar-light" style="background-color: #e3f2fd;">
-  <a class="navbar-brand" href="#">Unity Martial Arts Academy</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -115,11 +122,16 @@
         <a class="nav-link" href="tel:702-341-9990">702-341-9990</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link"><div class="fb-like" data-href="https://www.facebook.com/unitymartialartslv" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div></a>
+        <a class="nav-link"><div class="fb-like" data-href="http://www.unitymartialartslv.com" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div></a>
       </li>
     </ul>
   </div>
 </nav>
+
+<!--
+
+-->
+
 
 <!-- End Nav Bar -->
 
